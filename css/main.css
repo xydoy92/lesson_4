@@ -36,6 +36,16 @@ header .justify__wrapper,
 .contact .justify__wrapper {
     vertical-align: bottom;
 }
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff8c2c;
+}
 /*--header--*/
 header {
     position: fixed;
@@ -53,14 +63,9 @@ header nav {
     opacity: 0.6901960784313725;
 }
 
-header a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-header a:hover {
-    text-decoration: underline;
-    color: #ff8c2c;
+/* aside */
+aside {
+    display: none;
 }
 /*--main--*/
 h1 {
@@ -234,12 +239,14 @@ h4 {
 }
 
 .features .justify__wrapper__square {
-    padding: 50px 37px 51px 35px;
+    padding: 45px 34px;
     background-color: #333333;
     border: 1px solid #ffffff;
     color: #ffffff;
 }
-
+.features .justify__wrapper__square h3 {
+    font-size: 15px;
+}
 .features .justify__wrapper__square--orange-rounded {
     background-color: #ff8c2c;
     border-radius: 5px 5px 0 0;
@@ -256,14 +263,13 @@ h4 {
 }
 
 .features .justify__wrapper__header p {
-    padding-bottom: 20px;
-    /* на глазок, переделать */
+    padding-bottom: 25px;
 }
 
 .features .btn {
     padding-left: 25px;
     padding-right: 25px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 /* about */
 .about {
@@ -368,7 +374,7 @@ h4 {
     margin-top: 55px;
 }
 .reviews blockquote {
-    background: url(../img/cite.png) no-repeat center;
+    background: url(../img/cite.png) no-repeat center/100% 100%;
     padding: 24px 13px 41px;
     margin-bottom: 8px;
     font-style: italic;
@@ -426,6 +432,8 @@ h4 {
 }
 
 .contact .btn {
+    display: block;
+    margin: 0 auto;
     padding-left: 23px;
     padding-right: 23px;
 }
@@ -448,4 +456,52 @@ h6 {
     padding: 15px;
     opacity: 0.5019607843137255;
     color: #ffffff;
+}
+/* media */
+@media (max-width: 700px) {
+    .container main .justify__wrapper {
+        margin-top: 20px;
+        width: 85%;
+    }
+
+    img[src="./img/socials.png"] {
+        display: none;
+    }
+
+    header {
+        right: 0;
+        width: 79px;
+        padding: 20px 0;
+        border-radius: 0 0 0 20px;
+    }
+
+    header nav {
+        text-align: center;
+        padding: 20px 0;
+        line-height: 35px;
+    }
+    
+    aside {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: 79px;
+        background-color: #000000;
+        font-size: 13px;
+        line-height: 30px;
+        padding-top: 20px;
+        border-radius: 20px 0 0 0;
+        z-index: 1;
+    }
+
+    aside a {
+        opacity: 0.6901960784313725;
+    }
+}
+
+@media (max-width: 400px) {
+    img[src="./img/city.png"] {
+        display: none;
+    }
 }
