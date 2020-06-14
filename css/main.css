@@ -1,0 +1,451 @@
+* {    
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    font-size: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.justify:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+
+.justify__wrapper {
+    display: inline-block;
+}
+
+header .justify__wrapper,
+.socials .justify__wrapper,
+.features .justify__wrapper {
+    vertical-align: middle;
+}
+
+.buildings .justify__wrapper,
+.pricing .justify__wrapper,
+.reviews .justify__wrapper,
+.contact .justify__wrapper {
+    vertical-align: bottom;
+}
+/*--header--*/
+header {
+    position: fixed;
+    width: 100%;
+    padding: 22px 10.71%;
+    background-color: #000000;
+    z-index: 1;
+}
+
+header nav {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    word-spacing: 48px;
+    opacity: 0.6901960784313725;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #ff8c2c;
+}
+/*--main--*/
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.line {
+    color: #ff8c2c;
+    display: inline-block;
+    width: 64px;
+    margin: 30px auto;
+    border: 1px solid;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.btn {
+    padding: 11px 0 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: #bdbdbd;
+}
+
+p, h5, blockquote {
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878b;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.buildings .btn,
+.street .btn {
+    width: 135px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
+
+.buildings .line,
+.street .line {
+    color: #ffffff;
+}
+
+.buildings input[placeholder],
+.contact input[placeholder],
+.contact textarea {
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 0 0 9px 14px;
+}
+.features .btn,
+.contact .btn {
+    background-color: #ff8c2c;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover,
+.buildings input[type="submit"]:hover {
+    background-color: chocolate;
+}
+/* buildings */
+.buildings {
+    background: url(../img/buildings.png) no-repeat center/cover;
+}
+
+.buildings .justify {
+    padding: 180px 10.71% 140px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.buildings .justify__wrapper__header {
+    text-align: left;
+    width: 47%;
+}
+
+.buildings .justify__wrapper__form {
+    width: 32.73%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.buildings h1 {
+    padding: 33px 0 10px;
+    color: #ffffff;
+}
+
+.buildings h2 {
+    padding: 12px 0 44px;
+}
+
+
+.buildings h3 {    
+    background-color: #f5f5f5;
+    color: #333333;
+    padding: 18px;
+    border-radius: 5px 5px 0 0;
+}
+
+.buildings em {
+    font-style: normal;
+    color: #ff8c2c;
+}
+
+.buildings input[placeholder] {
+    width: 79.16%;
+    margin: 0 10.55%;
+}
+
+.buildings input[placeholder="Name"] {
+    padding-top: 40px;
+}
+
+.buildings input[placeholder="Email"] {
+    padding-top: 46px;
+}
+
+.buildings input[placeholder="Password"] {
+    padding-top: 57px;
+    margin-bottom: 58px;
+}
+
+.buildings input[type="submit"] {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ff8c2c;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    color: #ffffff;
+}
+/* socials */
+.socials {
+    padding: 22px 10.71% 22px 12%;
+}
+
+.socials .justify__wrapper__header {
+    width: 33.35%;
+}
+
+.socials .justify__wrapper__header h3 {
+    padding-bottom: 12px;
+}
+/* features */
+.features {
+    padding: 148px 10.57% 114px 10.14%;
+    background-color: #f5f5f5;
+}
+
+.features .justify__wrapper__square {
+    padding: 50px 37px 51px 35px;
+    background-color: #333333;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.features .justify__wrapper__square--orange-rounded {
+    background-color: #ff8c2c;
+    border-radius: 5px 5px 0 0;
+}
+
+.features .justify__wrapper__square--gray-rounded {
+    border-radius: 0 0 5px 5px;
+}
+.features .justify__wrapper__header {
+    width: 42.92%;
+}
+.features .justify__wrapper__header h3 {
+    padding-bottom: 52px;
+}
+
+.features .justify__wrapper__header p {
+    padding-bottom: 20px;
+    /* на глазок, переделать */
+}
+
+.features .btn {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+}
+/* about */
+.about {
+    padding: 109px 10.21% 105px;
+}
+
+.about .justify__wrapper {
+    text-align: center;
+    width: 31.57%;
+    vertical-align: top;
+}
+
+.about .justify__wrapper__icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background: no-repeat center;
+    border: 2px solid;
+    border-radius: 50%;
+    color: #ff8c2c;
+    margin-top: 80px;
+}
+
+.about .justify__wrapper__icon--lamp {
+    background-image: url(../img/icon-lamp.png);
+}
+
+.about .justify__wrapper__icon--keyboard {
+    background-image: url(../img/icon-keyboard.png);
+}
+
+.about .justify__wrapper__icon--lightning {
+    background-image: url(../img/icon-lightning.png);
+}
+
+.about h3 {
+    color: #333333;
+    padding: 29px 0 25px;
+}
+/* pricing */
+.pricing {
+    padding: 109px 10.42% 96px;
+    background-color: #f5f5f5;
+}
+
+.pricing .justify__wrapper {
+    text-align: center;
+    width: 30.96%;
+    margin-top: 79px;
+}
+
+.pricing .justify__wrapper__gray h3,
+.pricing .justify__wrapper__gray h4,
+.pricing .justify__wrapper__gray p {
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: 2px;
+}
+
+.pricing .justify__wrapper__gray h3 {
+    padding: 21px 0;
+}
+
+.pricing .justify__wrapper__gray p {
+    padding: 30px 0;
+}
+.pricing .justify__wrapper__gray i {
+    opacity: 0.5019607843137255;
+}
+
+.pricing .justify__wrapper__orange--empty {
+    background-color: #ff8c2c;
+    height: 5px;
+}
+
+.pricing .justify__wrapper__orange h3 {
+    background-color: #ff8c2c;
+    color: #ffffff;
+    padding: 14px 0;
+    font-size: 14px;
+}
+
+.pricing .justify__wrapper__white p {
+    background-color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 2px;
+    padding: 14px 0;
+}
+
+.pricing em {
+    font-style: normal;
+    font-size: 70px;
+}
+/* reviews */
+.reviews {
+    padding: 109px 12.28% 99px;
+}
+
+.reviews .justify__wrapper {
+    width: 25.86%;
+    text-align: left;
+    margin-top: 55px;
+}
+.reviews blockquote {
+    background: url(../img/cite.png) no-repeat center;
+    padding: 24px 13px 41px;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.reviews .person {
+    position: relative;
+    bottom: 8px;
+    left: 15px;
+    display: inline-block;
+}
+
+.reviews p {
+    padding-top: 8px;
+}
+/* street */
+.street {
+    background: url(../img/street.png) no-repeat center/cover;
+}
+
+.street .fogging {
+    padding: 76px 0 63px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.street h1 {
+    color: #ffffff;
+}
+
+.street h2 {
+    padding-bottom: 33px;
+}
+/* contact */
+.contact {
+    padding: 109px 10% 80px;
+}
+.contact .justify__wrapper {
+    width: 47.05%;
+    margin-bottom: 43px;
+}
+.contact input[placeholder] {
+    width: 100%;
+}
+
+.contact input[placeholder="Name"] {
+    margin-top: 80px;
+    padding-top: 11px;
+}
+
+.contact input[placeholder="Email"] {
+    padding-top: 40px;
+}
+
+.contact input[placeholder="Subject"] {
+    padding-top: 40px;
+}
+
+.contact .btn {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.contact textarea {
+    width: 100%;
+    resize: none;
+    padding-bottom: 128px;
+}
+
+/*--footer--*/
+footer {
+    padding-top: 39px;
+    background-color: #000000;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 12px;
+    padding: 15px;
+    opacity: 0.5019607843137255;
+    color: #ffffff;
+}
