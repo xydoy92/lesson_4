@@ -9,10 +9,9 @@
 </head>
 <body>
     <div class="container">
-        <a id="header"></a>
         <header class="justify">
             <div class="justify__wrapper">
-                <a href="#header"><img src="./img/logo.png" alt="AXIT" width="79" height="27"></a>
+                <a href="#"><img src="./img/logo.png" alt="AXIT" width="79" height="27"></a>
             </div>
             <div class="justify__wrapper">
                 <nav>
@@ -24,6 +23,16 @@
                 </nav>
             </div>
         </header>
+
+        <aside>
+            <a href="https://facebook.com">facebook</a>
+            <a href="https://twitter.com">twitter</a>
+            <a href="https://google.com">google+</a>
+            <a href="https://pinterest.com">pinterest</a>
+            <a href="https://instagram.com">instagram</a>
+            <a href="#">some site</a>
+            <a href="#">rss</a>
+        </aside>
 
         <main>
             <section class="buildings">
@@ -38,7 +47,7 @@
                         <button class="btn">Download</button>
                     </div>
                     <div class="justify__wrapper justify__wrapper__form">
-                        <form>
+                        <form action="#">
                             <h3>Try Your <em>FREE</em> Trial Today</h3>
                             <input type="text" placeholder="Name">
                             <input type="email" placeholder="Email">
@@ -63,14 +72,13 @@
                             <area shape="rect" coords="194,0,242,46" href="https://google.com" alt="google+">
                             <area shape="rect" coords="292,0,340,46" href="https://pinterest.com" alt="pinterest">
                             <area shape="rect" coords="390,0,438,46" href="https://instagram.com" alt="instagram">
-                            <area shape="rect" coords="488,0,536,46" href="#" alt="some_cite">
+                            <area shape="rect" coords="488,0,536,46" href="#" alt="some_site">
                             <area shape="rect" coords="586,0,634,46" href="#" alt="rss">
                         </map>
                     </div>
                 </div>
             </section>
-            <a id="features"></a>
-            <section class="features">
+            <section class="features" id="features">
                 <div class="justify">
                     <div class="justify__wrapper">
                         <div class="justify__wrapper__square justify__wrapper__square--orange-rounded">
@@ -98,8 +106,7 @@
                     </div>
                 </div>
             </section>
-            <a id="about"></a>
-            <section class="about">
+            <section class="about" id="about">
                 <h1>WHY THIS IS AWESOME</h1>
                 <div class="line"></div>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -128,8 +135,7 @@
                 </div>
 
             </section>
-            <a id="pricing"></a>
-            <section class="pricing">
+            <section class="pricing" id="pricing">
                 <h1>PRICING OPTIONS</h1>
                 <div class="line"></div>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -186,8 +192,7 @@
                     </div>
                 </div>
             </section>
-            <a id="reviews"></a>
-            <section class="reviews">
+            <section class="reviews" id="reviews">
                 <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
                 <div class="line"></div>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -239,22 +244,23 @@
                     <button class="btn">Download</button>
                 </div>
             </section>
-            <a id="contact"></a>
-            <section class="contact">
+            <section class="contact" id="contact">
                 <h1>CONTACT US</h1>
                 <div class="line"></div>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                <form class="justify">
-                    <div class="justify__wrapper">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <input type="text" placeholder="Subject">
+                <form action="#">
+                    <div class="justify">
+                        <div class="justify__wrapper">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="justify__wrapper">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
                     </div>
-                    <div class="justify__wrapper">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
+                    <button class="btn">Send Message</button>
                 </form>
-                <button class="btn">Send Message</button>
             </section>
         </main>
 
@@ -266,7 +272,7 @@
                 <area shape="rect" coords="97,0,121,23" href="https://google.com" alt="google+">
                 <area shape="rect" coords="146,0,170,23" href="https://pinterest.com" alt="pinterest">
                 <area shape="rect" coords="195,0,219,23" href="https://instagram.com" alt="instagram">
-                <area shape="rect" coords="244,0,268,23" href="#" alt="some_cite">
+                <area shape="rect" coords="244,0,268,23" href="#" alt="some_site">
                 <area shape="rect" coords="293,0,317,23" href="#" alt="rss">
             </map>
             <h6>© 2015 Axure Themes</h6>
