@@ -9,273 +9,603 @@
 </head>
 <body>
     <div class="container">
-        <header class="justify">
-            <div class="justify__wrapper">
-                <a href="#"><img src="./img/logo.png" alt="AXIT" width="79" height="27"></a>
-            </div>
-            <div class="justify__wrapper">
-                <nav>
-                    <a href="#features">Features</a>
-                    <a href="#about">About</a>
-                    <a href="#pricing">Pricing</a>
-                    <a href="#reviews">Reviews</a>
-                    <a href="#contact">Contact</a>
-                </nav>
-            </div>
+        <header id="header">
+            <a href="#header" class="container__item">
+                <img src="./img/logo.png" alt="AXIT">
+            </a>
+            <nav class="container__item">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
 
         <aside>
-            <a href="https://facebook.com">facebook</a>
-            <a href="https://twitter.com">twitter</a>
-            <a href="https://google.com">google+</a>
-            <a href="https://pinterest.com">pinterest</a>
-            <a href="https://instagram.com">instagram</a>
-            <a href="#">some site</a>
-            <a href="#">rss</a>
+            <nav class="container__item">
+                <a href="#header">
+                    <img src="./img/logo.png" alt="AXIT">
+                </a>
+                <a href="#features">F</a>
+                <a href="#about">A</a>
+                <a href="#pricing">P</a>
+                <a href="#reviews">R</a>
+                <a href="#contact">C</a>
+            </nav>
+            <ul class="container__item">
+                <li>
+                    <a href="https://facebook.com">
+                        <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323
+                            5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <path fill="currentColor" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                                    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                                    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                                    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                                    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                                    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                                    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                                    C480.224,136.96,497.728,118.496,512,97.248z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://google.com">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 96.669 96.669" style="enable-background:new 0 0 96.669 96.669;"
+                    xml:space="preserve">
+                            <g>
+                                <path fill="currentColor" d="M50.91,55.189l-4.533-3.522c-1.38-1.144-3.27-2.656-3.27-5.422c0-2.778,1.889-4.544,3.527-6.18
+                                    c5.279-4.157,10.557-8.581,10.557-17.903c0-9.586-6.031-14.629-8.923-17.022h7.795L64.244,0H39.459
+                                    C32.658,0,22.856,1.608,15.68,7.533c-5.408,4.666-8.046,11.099-8.046,16.892c0,9.831,7.548,19.798,20.88,19.798
+                                    c1.259,0,2.636-0.124,4.022-0.252c-0.623,1.515-1.252,2.777-1.252,4.917c0,3.905,2.006,6.299,3.774,8.567
+                                    c-5.663,0.39-16.237,1.018-24.033,5.809c-7.424,4.415-9.684,10.84-9.684,15.377c0,9.334,8.8,18.028,27.045,18.028
+                                    c21.636,0,33.089-11.971,33.089-23.823C61.477,64.139,56.447,59.854,50.91,55.189z M34.431,40.691
+                                    c-10.824,0-15.727-13.992-15.727-22.434c0-3.288,0.623-6.682,2.763-9.333C23.486,6.4,27,4.762,30.281,4.762
+                                    c10.434,0,15.846,14.118,15.846,23.197c0,2.271-0.251,6.296-3.144,9.207C40.96,39.187,37.574,40.691,34.431,40.691z
+                                        M34.555,91.387c-13.46,0-22.139-6.438-22.139-15.392c0-8.949,8.048-11.978,10.816-12.979c5.281-1.777,12.076-2.024,13.21-2.024
+                                    c1.258,0,1.887,0,2.889,0.126c9.568,6.81,13.721,10.203,13.721,16.65C53.053,85.573,46.635,91.387,34.555,91.387z"/>
+                                <polygon fill="currentColor" points="82.679,40.499 82.679,27.894 76.455,27.894 76.455,40.499 63.869,40.499 63.869,46.793 76.455,46.793 
+                                    76.455,59.477 82.679,59.477 82.679,46.793 95.328,46.793 95.328,40.499 		"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://pinterest.com">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 438.529 438.529" style="enable-background:new 0 0 438.529 438.529;"
+                    xml:space="preserve">
+                            <g>
+                                <path fill="currentColor" d="M409.141,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.751,9.801,259.065,0,219.281,0
+                                    C179.5,0,142.812,9.801,109.22,29.407c-33.597,19.604-60.194,46.201-79.8,79.796C9.809,142.8,0.008,179.485,0.008,219.267
+                                    c0,44.35,12.085,84.611,36.258,120.767c24.172,36.172,55.863,62.912,95.073,80.232c-0.762-20.365,0.476-37.209,3.709-50.532
+                                    l28.267-119.348c-4.76-9.329-7.139-20.93-7.139-34.831c0-16.175,4.089-29.689,12.275-40.541
+                                    c8.186-10.85,18.177-16.274,29.979-16.274c9.514,0,16.841,3.14,21.982,9.42c5.142,6.283,7.705,14.181,7.705,23.7
+                                    c0,5.896-1.099,13.084-3.289,21.554c-2.188,8.471-5.041,18.273-8.562,29.409c-3.521,11.132-6.045,20.036-7.566,26.692
+                                    c-2.663,11.608-0.476,21.553,6.567,29.838c7.042,8.278,16.372,12.423,27.983,12.423c20.365,0,37.065-11.324,50.107-33.972
+                                    c13.038-22.655,19.554-50.159,19.554-82.514c0-24.938-8.042-45.21-24.129-60.813c-16.085-15.609-38.496-23.417-67.239-23.417
+                                    c-32.161,0-58.192,10.327-78.082,30.978c-19.891,20.654-29.836,45.352-29.836,74.091c0,17.132,4.854,31.505,14.56,43.112
+                                    c3.235,3.806,4.283,7.898,3.14,12.279c-0.381,1.143-1.141,3.997-2.284,8.562c-1.138,4.565-1.903,7.522-2.281,8.851
+                                    c-1.521,6.091-5.14,7.994-10.85,5.708c-14.654-6.085-25.791-16.652-33.402-31.689c-7.614-15.037-11.422-32.456-11.422-52.246
+                                    c0-12.753,2.047-25.505,6.14-38.256c4.089-12.756,10.468-25.078,19.126-36.975c8.663-11.9,19.036-22.417,31.123-31.549
+                                    c12.082-9.135,26.787-16.462,44.108-21.982s35.972-8.28,55.959-8.28c27.032,0,51.295,5.995,72.8,17.986
+                                    c21.512,11.992,37.925,27.502,49.252,46.537c11.327,19.036,16.987,39.403,16.987,61.101c0,28.549-4.948,54.243-14.842,77.086
+                                    c-9.896,22.839-23.887,40.778-41.973,53.813c-18.083,13.042-38.637,19.561-61.675,19.561c-11.607,0-22.456-2.714-32.548-8.135
+                                    c-10.085-5.427-17.034-11.847-20.839-19.273c-8.566,33.685-13.706,53.77-15.42,60.24c-3.616,13.508-11.038,29.119-22.27,46.819
+                                    c20.367,6.091,41.112,9.13,62.24,9.13c39.781,0,76.47-9.801,110.062-29.41c33.595-19.602,60.192-46.199,79.794-79.791
+                                    c19.606-33.599,29.407-70.287,29.407-110.065C438.527,179.485,428.74,142.795,409.141,109.203z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                            <g>
+                                <path fill="currentColor" d="M38.52,0.012h222.978C282.682,0.012,300,17.336,300,38.52v222.978c0,21.178-17.318,38.49-38.502,38.49
+                                    H38.52c-21.184,0-38.52-17.313-38.52-38.49V38.52C0,17.336,17.336,0.012,38.52,0.012z M218.546,33.329
+                                    c-7.438,0-13.505,6.091-13.505,13.525v32.314c0,7.437,6.067,13.514,13.505,13.514h33.903c7.426,0,13.506-6.077,13.506-13.514
+                                    V46.854c0-7.434-6.08-13.525-13.506-13.525H218.546z M266.084,126.868h-26.396c2.503,8.175,3.86,16.796,3.86,25.759
+                                    c0,49.882-41.766,90.34-93.266,90.34c-51.487,0-93.254-40.458-93.254-90.34c0-8.963,1.37-17.584,3.861-25.759H33.35v126.732
+                                    c0,6.563,5.359,11.902,11.916,11.902h208.907c6.563,0,11.911-5.339,11.911-11.902V126.868z M150.283,90.978
+                                    c-33.26,0-60.24,26.128-60.24,58.388c0,32.227,26.98,58.375,60.24,58.375c33.278,0,60.259-26.148,60.259-58.375
+                                    C210.542,117.105,183.561,90.978,150.283,90.978z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.stumbleupon.com/">
+                        <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="m24 15.732c0-.15 0-3.423 0-3.267h-4.1v3.374c0 .689-.577 1.242-1.279 1.242-.701
+                            0-1.275-.553-1.275-1.242v-3.308l-2.438.713-1.637-.75v3.29c0
+                            2.882 2.415 5.216 5.364 5.216 2.964 0 5.365-2.357 5.365-5.268z"/>
+                            <path fill="currentColor" d="m5.364 20.994c2.94 0 5.364-2.319 5.364-5.193v-7.511c0-.689.573-1.252 1.275-1.252.701 0 1.275.563 1.275 1.252
+                            0 .101 0 1.55 0 1.45l1.637.75 2.438-.713v-1.669c0-2.835-2.438-5.108-5.35-5.108-2.901 0-5.35 2.258-5.35 5.071v7.61c0
+                            .698-.573 1.252-1.275 1.252-.701 0-1.275-.553-1.275-1.252v-3.215h-4.103v3.266c0 2.905 2.401 5.262 5.364 5.262z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <circle fill="currentColor" cx="3.429" cy="20.571" r="3.429"/>
+                            <path fill="currentColor" d="m11.429 24h4.57c0-8.821-7.178-15.999-15.999-16v4.572c6.302.001 11.429 5.126 11.429 11.428z"/>
+                            <path fill="currentColor" d="m24 24c0-13.234-10.766-24-24-24v4.571c10.714 0 19.43 8.714 19.43 19.429z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </aside>
 
         <main>
             <section class="buildings">
-                <div class="justify">
-                    <div class="justify__wrapper justify__wrapper__header">
-                        <img src="./img/logo.png" alt="AXIT" width="175" height="60">
-                        <h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-                        <div class="line"></div>
-                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                <div class="fogging">
+                    <div class="container__item buildings--text white">
+                        <img src="./img/logo.png" alt="AXIT">
+                        <h2 class="white">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                        <div class="line white"></div>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                             euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-                            accumsan et viverra justo commodo.</h2>
-                        <button class="btn">Download</button>
+                            accumsan et viverra justo commodo.</h3>
+                        <button class="btn btn--transparent">Download</button>
+                        <div></div>
                     </div>
-                    <div class="justify__wrapper justify__wrapper__form">
-                        <form action="#">
-                            <h3>Try Your <em>FREE</em> Trial Today</h3>
-                            <input type="text" placeholder="Name">
-                            <input type="email" placeholder="Email">
-                            <input type="password" placeholder="Password">
-                            <input type="submit" value="Get Started">
-                        </form>
-                    </div>
+                    <form class="container__item buildings--form" action="#">
+                        <h4>Try Your <em>FREE</em> Trial Today</h4>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button class="btn backorange">Get Started</button>
+                        <div></div>
+                    </form>
                 </div>
             </section>
             <section class="socials">
-                <div class="justify">
-                    <div class="justify__wrapper justify__wrapper__header">
-                        <h3>Social Media</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Aenean euismod bibendum laoreet.</p>
-                    </div>
-                    <div class="justify__wrapper">
-                        <img src="./img/socials.png" alt="social networks" width="634" height="46" usemap="#social_networks">
-                        <map name="social_networks">
-                            <area shape="rect" coords="0,0,46,46" href="https://facebook.com" alt="facebook">
-                            <area shape="rect" coords="96,0,144,46" href="https://twitter.com" alt="twitter">
-                            <area shape="rect" coords="194,0,242,46" href="https://google.com" alt="google+">
-                            <area shape="rect" coords="292,0,340,46" href="https://pinterest.com" alt="pinterest">
-                            <area shape="rect" coords="390,0,438,46" href="https://instagram.com" alt="instagram">
-                            <area shape="rect" coords="488,0,536,46" href="#" alt="some_site">
-                            <area shape="rect" coords="586,0,634,46" href="#" alt="rss">
-                        </map>
-                    </div>
+                <div class="container__item socials--text">
+                    <h4>Social Media</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet.</p>
                 </div>
+                <ul class="container__item">
+                    <li>
+                        <a href="https://facebook.com">
+                            <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323
+                                5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <path fill="currentColor" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                                        c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                                        c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                                        c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                                        c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                                        c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                                        C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                                        C480.224,136.96,497.728,118.496,512,97.248z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://google.com">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 96.669 96.669" style="enable-background:new 0 0 96.669 96.669;"
+                        xml:space="preserve">
+                                <g>
+                                    <path fill="currentColor" d="M50.91,55.189l-4.533-3.522c-1.38-1.144-3.27-2.656-3.27-5.422c0-2.778,1.889-4.544,3.527-6.18
+                                        c5.279-4.157,10.557-8.581,10.557-17.903c0-9.586-6.031-14.629-8.923-17.022h7.795L64.244,0H39.459
+                                        C32.658,0,22.856,1.608,15.68,7.533c-5.408,4.666-8.046,11.099-8.046,16.892c0,9.831,7.548,19.798,20.88,19.798
+                                        c1.259,0,2.636-0.124,4.022-0.252c-0.623,1.515-1.252,2.777-1.252,4.917c0,3.905,2.006,6.299,3.774,8.567
+                                        c-5.663,0.39-16.237,1.018-24.033,5.809c-7.424,4.415-9.684,10.84-9.684,15.377c0,9.334,8.8,18.028,27.045,18.028
+                                        c21.636,0,33.089-11.971,33.089-23.823C61.477,64.139,56.447,59.854,50.91,55.189z M34.431,40.691
+                                        c-10.824,0-15.727-13.992-15.727-22.434c0-3.288,0.623-6.682,2.763-9.333C23.486,6.4,27,4.762,30.281,4.762
+                                        c10.434,0,15.846,14.118,15.846,23.197c0,2.271-0.251,6.296-3.144,9.207C40.96,39.187,37.574,40.691,34.431,40.691z
+                                            M34.555,91.387c-13.46,0-22.139-6.438-22.139-15.392c0-8.949,8.048-11.978,10.816-12.979c5.281-1.777,12.076-2.024,13.21-2.024
+                                        c1.258,0,1.887,0,2.889,0.126c9.568,6.81,13.721,10.203,13.721,16.65C53.053,85.573,46.635,91.387,34.555,91.387z"/>
+                                    <polygon fill="currentColor" points="82.679,40.499 82.679,27.894 76.455,27.894 76.455,40.499 63.869,40.499 63.869,46.793 76.455,46.793 
+                                        76.455,59.477 82.679,59.477 82.679,46.793 95.328,46.793 95.328,40.499 		"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://pinterest.com">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 438.529 438.529" style="enable-background:new 0 0 438.529 438.529;"
+                        xml:space="preserve">
+                                <g>
+                                    <path fill="currentColor" d="M409.141,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.751,9.801,259.065,0,219.281,0
+                                        C179.5,0,142.812,9.801,109.22,29.407c-33.597,19.604-60.194,46.201-79.8,79.796C9.809,142.8,0.008,179.485,0.008,219.267
+                                        c0,44.35,12.085,84.611,36.258,120.767c24.172,36.172,55.863,62.912,95.073,80.232c-0.762-20.365,0.476-37.209,3.709-50.532
+                                        l28.267-119.348c-4.76-9.329-7.139-20.93-7.139-34.831c0-16.175,4.089-29.689,12.275-40.541
+                                        c8.186-10.85,18.177-16.274,29.979-16.274c9.514,0,16.841,3.14,21.982,9.42c5.142,6.283,7.705,14.181,7.705,23.7
+                                        c0,5.896-1.099,13.084-3.289,21.554c-2.188,8.471-5.041,18.273-8.562,29.409c-3.521,11.132-6.045,20.036-7.566,26.692
+                                        c-2.663,11.608-0.476,21.553,6.567,29.838c7.042,8.278,16.372,12.423,27.983,12.423c20.365,0,37.065-11.324,50.107-33.972
+                                        c13.038-22.655,19.554-50.159,19.554-82.514c0-24.938-8.042-45.21-24.129-60.813c-16.085-15.609-38.496-23.417-67.239-23.417
+                                        c-32.161,0-58.192,10.327-78.082,30.978c-19.891,20.654-29.836,45.352-29.836,74.091c0,17.132,4.854,31.505,14.56,43.112
+                                        c3.235,3.806,4.283,7.898,3.14,12.279c-0.381,1.143-1.141,3.997-2.284,8.562c-1.138,4.565-1.903,7.522-2.281,8.851
+                                        c-1.521,6.091-5.14,7.994-10.85,5.708c-14.654-6.085-25.791-16.652-33.402-31.689c-7.614-15.037-11.422-32.456-11.422-52.246
+                                        c0-12.753,2.047-25.505,6.14-38.256c4.089-12.756,10.468-25.078,19.126-36.975c8.663-11.9,19.036-22.417,31.123-31.549
+                                        c12.082-9.135,26.787-16.462,44.108-21.982s35.972-8.28,55.959-8.28c27.032,0,51.295,5.995,72.8,17.986
+                                        c21.512,11.992,37.925,27.502,49.252,46.537c11.327,19.036,16.987,39.403,16.987,61.101c0,28.549-4.948,54.243-14.842,77.086
+                                        c-9.896,22.839-23.887,40.778-41.973,53.813c-18.083,13.042-38.637,19.561-61.675,19.561c-11.607,0-22.456-2.714-32.548-8.135
+                                        c-10.085-5.427-17.034-11.847-20.839-19.273c-8.566,33.685-13.706,53.77-15.42,60.24c-3.616,13.508-11.038,29.119-22.27,46.819
+                                        c20.367,6.091,41.112,9.13,62.24,9.13c39.781,0,76.47-9.801,110.062-29.41c33.595-19.602,60.192-46.199,79.794-79.791
+                                        c19.606-33.599,29.407-70.287,29.407-110.065C438.527,179.485,428.74,142.795,409.141,109.203z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                                <g>
+                                    <path fill="currentColor" d="M38.52,0.012h222.978C282.682,0.012,300,17.336,300,38.52v222.978c0,21.178-17.318,38.49-38.502,38.49
+                                        H38.52c-21.184,0-38.52-17.313-38.52-38.49V38.52C0,17.336,17.336,0.012,38.52,0.012z M218.546,33.329
+                                        c-7.438,0-13.505,6.091-13.505,13.525v32.314c0,7.437,6.067,13.514,13.505,13.514h33.903c7.426,0,13.506-6.077,13.506-13.514
+                                        V46.854c0-7.434-6.08-13.525-13.506-13.525H218.546z M266.084,126.868h-26.396c2.503,8.175,3.86,16.796,3.86,25.759
+                                        c0,49.882-41.766,90.34-93.266,90.34c-51.487,0-93.254-40.458-93.254-90.34c0-8.963,1.37-17.584,3.861-25.759H33.35v126.732
+                                        c0,6.563,5.359,11.902,11.916,11.902h208.907c6.563,0,11.911-5.339,11.911-11.902V126.868z M150.283,90.978
+                                        c-33.26,0-60.24,26.128-60.24,58.388c0,32.227,26.98,58.375,60.24,58.375c33.278,0,60.259-26.148,60.259-58.375
+                                        C210.542,117.105,183.561,90.978,150.283,90.978z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.stumbleupon.com/">
+                            <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="m24 15.732c0-.15 0-3.423 0-3.267h-4.1v3.374c0 .689-.577 1.242-1.279 1.242-.701
+                                0-1.275-.553-1.275-1.242v-3.308l-2.438.713-1.637-.75v3.29c0
+                                2.882 2.415 5.216 5.364 5.216 2.964 0 5.365-2.357 5.365-5.268z"/>
+                                <path fill="currentColor" d="m5.364 20.994c2.94 0 5.364-2.319 5.364-5.193v-7.511c0-.689.573-1.252 1.275-1.252.701 0 1.275.563 1.275 1.252
+                                0 .101 0 1.55 0 1.45l1.637.75 2.438-.713v-1.669c0-2.835-2.438-5.108-5.35-5.108-2.901 0-5.35 2.258-5.35 5.071v7.61c0
+                                .698-.573 1.252-1.275 1.252-.701 0-1.275-.553-1.275-1.252v-3.215h-4.103v3.266c0 2.905 2.401 5.262 5.364 5.262z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <circle fill="currentColor" cx="3.429" cy="20.571" r="3.429"/>
+                                <path fill="currentColor" d="m11.429 24h4.57c0-8.821-7.178-15.999-15.999-16v4.572c6.302.001 11.429 5.126 11.429 11.428z"/>
+                                <path fill="currentColor" d="m24 24c0-13.234-10.766-24-24-24v4.571c10.714 0 19.43 8.714 19.43 19.429z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </section>
             <section class="features" id="features">
-                <div class="justify">
-                    <div class="justify__wrapper">
-                        <div class="justify__wrapper__square justify__wrapper__square--orange-rounded">
-                            <h3>TAB 1</h3>
-                        </div>
-                        <div class="justify__wrapper__square">
-                            <h3>TAB 2</h3>
-                        </div>
-                        <div class="justify__wrapper__square justify__wrapper__square--gray-rounded">
-                            <h3>TAB 3</h3>
-                        </div>
-                    </div>
-                    <div class="justify__wrapper justify__wrapper__header">
-                        <h3>Tabs with soft transitioning effect.</h3>
+                <div class="container__item features--tabs">
+                    <input type="radio" name="btn--tab" id="btn--tab-1" checked>
+                    <label class="white" for="btn--tab-1">TAB 1</label>
+                    <input type="radio" name="btn--tab" id="btn--tab-2">
+                    <label class="white" for="btn--tab-2">TAB 2</label>
+                    <input type="radio" name="btn--tab" id="btn--tab-3">
+                    <label class="white" for="btn--tab-3">TAB 3</label>
+                    <div id="content-1">
+                        <h4>Tabs with soft transitioning effect.</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                             bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
                             justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                             penatibus et magnis dis parturient montes.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                             bibendum laoreet.</p>
-                        <button class="btn">Download</button>
+                        <button class="btn btn--rounded backorange">Download</button>
                     </div>
-                    <div class="justify__wrapper">
-                        <img src="./img/city.png" alt="city">
+                    <div id="content-2">
+                        <h4>Tabs with very soft transitioning effect.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                            justo commodo.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        <button class="btn btn--rounded backorange">Download</button>
                     </div>
+                    <div id="content-3">
+                        <h4>Tabs with too much soft transitioning effect.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <button class="btn btn--rounded backorange">Download</button>
+                    </div>
+                </div>
+                <div class="container__item features--img">
+                    <img src="./img/city.png" alt="city">
                 </div>
             </section>
             <section class="about" id="about">
-                <h1>WHY THIS IS AWESOME</h1>
-                <div class="line"></div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                <div class="justify">
-                    <div class="justify__wrapper">
-                        <div class="justify__wrapper__icon justify__wrapper__icon--lamp"></div>
-                        <h3>Thoughtful Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Aenean euismod bibendum laoreet. Proin gravida 
-                            dolor sit amet lacus accumsan et viverra.</p>
-                    </div>
-                    <div class="justify__wrapper">
-                        <div class="justify__wrapper__icon justify__wrapper__icon--keyboard"></div>
-                        <h3>Well Crafted</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida 
-                            dolor sit amet lacus accumsan et viverra.</p>
-                    </div>
-                    <div class="justify__wrapper">
-                        <div class="justify__wrapper__icon justify__wrapper__icon--lightning"></div>
-                        <h3>Easy to Customize</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida 
-                            dolor sit amet lacus accumsan et viverra.</p>
-                    </div>
+                <div class="wrapper">
+                    <h2>WHY THIS IS AWESOME</h2>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-
+                <div class="container__item">
+                    <div class="about__icon about__icon--lamp"></div>
+                    <h4>Thoughtful Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.</p>
+                </div>
+                <div class="container__item">
+                    <div class="about__icon about__icon--keyboard"></div>
+                    <h4>Well Crafted</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                        elit. Aenean euismod bibendum laoreet. Proin gravida 
+                        dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+                <div class="container__item">
+                    <div class="about__icon about__icon--lightning"></div>
+                    <h4>Easy to Customize</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Possimus veritatis dolor quis voluptatum nisi repudiandae fuga, consectetur repellat?
+                        Repellat porro placeat ab saepe. Aut iste qui eos explicabo quo.
+                        Distinctio sed cupiditate similique voluptates exercitationem eveniet,
+                        laboriosam numquam obcaecati inventore nobis ratione consequatur ipsum quos.
+                        Ipsa, omnis facilis! In, saepe.</p>
+                </div>
             </section>
             <section class="pricing" id="pricing">
-                <h1>PRICING OPTIONS</h1>
-                <div class="line"></div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                <div class="justify">
-                    <div class="justify__wrapper">
-                        <div class="justify__wrapper__gray">
-                            <h3>Basic</h3>
-                            <h4>$<em>0</em></h4>
-                            <p><i>Free for Life</i></p>
-                        </div>
-                        <div class="justify__wrapper__orange--empty"></div>
-                        <div class="justify__wrapper__white">
-                            <p>1 gb of space</p>
-                            <p>10 gb of bandwidth</p>
-                            <p>3 websites</p>
-                            <p>Basic Customization</p>
-                            <p>wordpress integration</p>
-                            <p>email support</p>
-                        </div>
+                <div class="wrapper">
+                    <h2>PRICING OPTIONS</h2>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="container__item">
+                    <div class="gray-box">
+                        <h4 class="white">Basic</h4>
+                        <h5 class="white">$<em>0</em></h5>
+                        <p class="white"><i>Free for Life</i></p>
                     </div>
-                    <div class="justify__wrapper">
-                        <div class="justify__wrapper__gray">
-                            <h3>Professional</h3>
-                            <h4>$<em>19</em></h4>
-                            <p><i>Monthly Payment</i></p>
-                        </div>
-                        <div class="justify__wrapper__orange">
-                            <h3>OUR MOST POPULAR</h3>
-                        </div>
-                        <div class="justify__wrapper__white">
-                            <p>5 gb of space</p>
-                            <p>50 gb of bandwidth</p>
-                            <p>12 websites</p>
-                            <p>Advanced Customization</p>
-                            <p>wordpress integration</p>
-                            <p>email support</p>
-                        </div>
+                    <div class="orange-empty backorange"></div>
+                    <ul class="white-box">
+                        <li>1 gb of space</li>
+                        <li>10 gb of bandwidth</li>
+                        <li>3 websites</li>
+                        <li>Basic Customization</li>
+                        <li>wordpress integration</li>
+                        <li>email support</li>
+                    </ul>
+                </div>
+                <div class="container__item">
+                    <div class="gray-box">
+                        <h4 class="white">Professional</h4>
+                        <h5 class="white">$<em>19</em></h5>
+                        <p class="white"><i>Monthly Payment</i></p>
                     </div>
-                    <div class="justify__wrapper">
-                        <div class="justify__wrapper__gray">
-                            <h3>Enterprise</h3>
-                            <h4>$<em>70</em></h4>
-                            <p><i>Monthly Payment</i></p>
-                        </div>
-                        <div class="justify__wrapper__orange--empty"></div>
-                        <div class="justify__wrapper__white">
-                            <p>Unlimited space</p>
-                            <p>unlimited bandwidth</p>
-                            <p>100 websites</p>
-                            <p>Advanced Customization</p>
-                            <p>wordpress integration</p>
-                            <p>24/7 customer support</p>
-                        </div>
+                    <div class="orange-box backorange">
+                        <h4 class="white">OUR MOST POPULAR</h4>
                     </div>
+                    <ul class="white-box">
+                        <li>5 gb of space</li>
+                        <li>50 gb of bandwidth</li>
+                        <li>12 websites</li>
+                        <li>Advanced Customization</li>
+                        <li>wordpress integration</li>
+                        <li>email support</li>
+                    </ul>
+                </div>
+                <div class="container__item">
+                    <div class="gray-box">
+                        <h4 class="white">Enterprise</h4>
+                        <h5 class="white">$<em>70</em></h5>
+                        <p class="white"><i>Monthly Payment</i></p>
+                    </div>
+                    <div class="orange-empty backorange"></div>
+                    <ul class="white-box">
+                        <li>Unlimited space</li>
+                        <li>unlimited bandwidth</li>
+                        <li>100 websites</li>
+                        <li>Advanced Customization</li>
+                        <li>wordpress integration</li>
+                        <li>24/7 customer support</li>
+                    </ul>
                 </div>
             </section>
             <section class="reviews" id="reviews">
-                <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
-                <div class="line"></div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                <div class="justify">
-                    <div class="justify__wrapper">
-                        <blockquote>Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</blockquote>
-                        <img src="./img/avatar.png" alt="avatar" width="70" height="70">
-                        <div class="person">
-                            <h3>Jeremy H.</h3>
-                            <p>Manager</p>
-                        </div>
+                <div class="wrapper">
+                    <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="container__item">
+                    <blockquote>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.</blockquote>
+                    <img src="./img/avatar.png" alt="avatar">
+                    <div class="person">
+                        <h3>Jeremy H.</h3>
+                        <p>Manager</p>
                     </div>
-                    <div class="justify__wrapper">
-                        <blockquote>Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</blockquote>
-                        <img src="./img/avatar.png" alt="avatar" width="70" height="70">
-                        <div class="person">
-                            <h3>John S.</h3>
-                            <p>Freelancer</p>
-                        </div>
+                </div>
+                <div class="container__item">
+                    <blockquote>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.</blockquote>
+                    <img src="./img/avatar.png" alt="avatar">
+                    <div class="person">
+                        <h3>John S.</h3>
+                        <p>Freelancer</p>
                     </div>
-                    <div class="justify__wrapper">
-                        <blockquote>Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</blockquote>
-                        <img src="./img/avatar.png" alt="avatar" width="70" height="70">
-                        <div class="person">
-                            <h3>Susan W.</h3>
-                            <p>Photographer</p>
-                        </div>
+                </div>
+                <div class="container__item">
+                    <blockquote>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.</blockquote>
+                    <img src="./img/avatar.png" alt="avatar">
+                    <div class="person">
+                        <h3>Susan W.</h3>
+                        <p>Photographer</p>
                     </div>
                 </div>
             </section>
             <section class="street">
-                <div class="fogging">
-                    <h1>STYLISH AXURE DESIGN</h1>
-                    <div class="line"></div>
-                    <h2>Use the sections you need, remove the ones you don't.
-                        Create gorgeous prototypes faster than ever!</h2>
-                    <button class="btn">Download</button>
+                <div class="fogging white">
+                    <h2 class="white">STYLISH AXURE DESIGN</h2>
+                    <div class="line white"></div>
+                    <h3>Use the sections you need, remove the ones you don't.
+                        Create gorgeous prototypes faster than ever!</h3>
+                    <button class="btn btn--transparent">Download</button>
                 </div>
             </section>
             <section class="contact" id="contact">
-                <h1>CONTACT US</h1>
-                <div class="line"></div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                <div class="wrapper">
+                    <h2>CONTACT US</h2>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>       
+                </div>
                 <form action="#">
-                    <div class="justify">
-                        <div class="justify__wrapper">
-                            <input type="text" placeholder="Name">
-                            <input type="email" placeholder="Email">
-                            <input type="text" placeholder="Subject">
-                        </div>
-                        <div class="justify__wrapper">
-                            <textarea placeholder="Message"></textarea>
-                        </div>
+                    <div class="container__item">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Subject">
                     </div>
-                    <button class="btn">Send Message</button>
+                    <textarea class="container__item" rows="10" placeholder="Message"></textarea>
+                    <button class="btn btn--rounded backorange">Send Message</button>
                 </form>
             </section>
         </main>
 
         <footer>
-            <img src="./img/socials.png" alt="social networks" width="317" height="23" usemap="#social_networks_small">
-            <map name="social_networks_small">
-                <area shape="rect" coords="0,0,23,23" href="https://facebook.com" alt="facebook">
-                <area shape="rect" coords="48,0,72,23" href="https://twitter.com" alt="twitter">
-                <area shape="rect" coords="97,0,121,23" href="https://google.com" alt="google+">
-                <area shape="rect" coords="146,0,170,23" href="https://pinterest.com" alt="pinterest">
-                <area shape="rect" coords="195,0,219,23" href="https://instagram.com" alt="instagram">
-                <area shape="rect" coords="244,0,268,23" href="#" alt="some_site">
-                <area shape="rect" coords="293,0,317,23" href="#" alt="rss">
-            </map>
-            <h6>© 2015 Axure Themes</h6>
+            <ul class="container__item">
+                <li>
+                    <a href="https://facebook.com">
+                        <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323
+                            5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <path fill="currentColor" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                                    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                                    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                                    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                                    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                                    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                                    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                                    C480.224,136.96,497.728,118.496,512,97.248z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://google.com">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 96.669 96.669" style="enable-background:new 0 0 96.669 96.669;"
+                    xml:space="preserve">
+                            <g>
+                                <path fill="currentColor" d="M50.91,55.189l-4.533-3.522c-1.38-1.144-3.27-2.656-3.27-5.422c0-2.778,1.889-4.544,3.527-6.18
+                                    c5.279-4.157,10.557-8.581,10.557-17.903c0-9.586-6.031-14.629-8.923-17.022h7.795L64.244,0H39.459
+                                    C32.658,0,22.856,1.608,15.68,7.533c-5.408,4.666-8.046,11.099-8.046,16.892c0,9.831,7.548,19.798,20.88,19.798
+                                    c1.259,0,2.636-0.124,4.022-0.252c-0.623,1.515-1.252,2.777-1.252,4.917c0,3.905,2.006,6.299,3.774,8.567
+                                    c-5.663,0.39-16.237,1.018-24.033,5.809c-7.424,4.415-9.684,10.84-9.684,15.377c0,9.334,8.8,18.028,27.045,18.028
+                                    c21.636,0,33.089-11.971,33.089-23.823C61.477,64.139,56.447,59.854,50.91,55.189z M34.431,40.691
+                                    c-10.824,0-15.727-13.992-15.727-22.434c0-3.288,0.623-6.682,2.763-9.333C23.486,6.4,27,4.762,30.281,4.762
+                                    c10.434,0,15.846,14.118,15.846,23.197c0,2.271-0.251,6.296-3.144,9.207C40.96,39.187,37.574,40.691,34.431,40.691z
+                                        M34.555,91.387c-13.46,0-22.139-6.438-22.139-15.392c0-8.949,8.048-11.978,10.816-12.979c5.281-1.777,12.076-2.024,13.21-2.024
+                                    c1.258,0,1.887,0,2.889,0.126c9.568,6.81,13.721,10.203,13.721,16.65C53.053,85.573,46.635,91.387,34.555,91.387z"/>
+                                <polygon fill="currentColor" points="82.679,40.499 82.679,27.894 76.455,27.894 76.455,40.499 63.869,40.499 63.869,46.793 76.455,46.793 
+                                    76.455,59.477 82.679,59.477 82.679,46.793 95.328,46.793 95.328,40.499 		"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://pinterest.com">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 438.529 438.529" style="enable-background:new 0 0 438.529 438.529;"
+                    xml:space="preserve">
+                            <g>
+                                <path fill="currentColor" d="M409.141,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.751,9.801,259.065,0,219.281,0
+                                    C179.5,0,142.812,9.801,109.22,29.407c-33.597,19.604-60.194,46.201-79.8,79.796C9.809,142.8,0.008,179.485,0.008,219.267
+                                    c0,44.35,12.085,84.611,36.258,120.767c24.172,36.172,55.863,62.912,95.073,80.232c-0.762-20.365,0.476-37.209,3.709-50.532
+                                    l28.267-119.348c-4.76-9.329-7.139-20.93-7.139-34.831c0-16.175,4.089-29.689,12.275-40.541
+                                    c8.186-10.85,18.177-16.274,29.979-16.274c9.514,0,16.841,3.14,21.982,9.42c5.142,6.283,7.705,14.181,7.705,23.7
+                                    c0,5.896-1.099,13.084-3.289,21.554c-2.188,8.471-5.041,18.273-8.562,29.409c-3.521,11.132-6.045,20.036-7.566,26.692
+                                    c-2.663,11.608-0.476,21.553,6.567,29.838c7.042,8.278,16.372,12.423,27.983,12.423c20.365,0,37.065-11.324,50.107-33.972
+                                    c13.038-22.655,19.554-50.159,19.554-82.514c0-24.938-8.042-45.21-24.129-60.813c-16.085-15.609-38.496-23.417-67.239-23.417
+                                    c-32.161,0-58.192,10.327-78.082,30.978c-19.891,20.654-29.836,45.352-29.836,74.091c0,17.132,4.854,31.505,14.56,43.112
+                                    c3.235,3.806,4.283,7.898,3.14,12.279c-0.381,1.143-1.141,3.997-2.284,8.562c-1.138,4.565-1.903,7.522-2.281,8.851
+                                    c-1.521,6.091-5.14,7.994-10.85,5.708c-14.654-6.085-25.791-16.652-33.402-31.689c-7.614-15.037-11.422-32.456-11.422-52.246
+                                    c0-12.753,2.047-25.505,6.14-38.256c4.089-12.756,10.468-25.078,19.126-36.975c8.663-11.9,19.036-22.417,31.123-31.549
+                                    c12.082-9.135,26.787-16.462,44.108-21.982s35.972-8.28,55.959-8.28c27.032,0,51.295,5.995,72.8,17.986
+                                    c21.512,11.992,37.925,27.502,49.252,46.537c11.327,19.036,16.987,39.403,16.987,61.101c0,28.549-4.948,54.243-14.842,77.086
+                                    c-9.896,22.839-23.887,40.778-41.973,53.813c-18.083,13.042-38.637,19.561-61.675,19.561c-11.607,0-22.456-2.714-32.548-8.135
+                                    c-10.085-5.427-17.034-11.847-20.839-19.273c-8.566,33.685-13.706,53.77-15.42,60.24c-3.616,13.508-11.038,29.119-22.27,46.819
+                                    c20.367,6.091,41.112,9.13,62.24,9.13c39.781,0,76.47-9.801,110.062-29.41c33.595-19.602,60.192-46.199,79.794-79.791
+                                    c19.606-33.599,29.407-70.287,29.407-110.065C438.527,179.485,428.74,142.795,409.141,109.203z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                            <g>
+                                <path fill="currentColor" d="M38.52,0.012h222.978C282.682,0.012,300,17.336,300,38.52v222.978c0,21.178-17.318,38.49-38.502,38.49
+                                    H38.52c-21.184,0-38.52-17.313-38.52-38.49V38.52C0,17.336,17.336,0.012,38.52,0.012z M218.546,33.329
+                                    c-7.438,0-13.505,6.091-13.505,13.525v32.314c0,7.437,6.067,13.514,13.505,13.514h33.903c7.426,0,13.506-6.077,13.506-13.514
+                                    V46.854c0-7.434-6.08-13.525-13.506-13.525H218.546z M266.084,126.868h-26.396c2.503,8.175,3.86,16.796,3.86,25.759
+                                    c0,49.882-41.766,90.34-93.266,90.34c-51.487,0-93.254-40.458-93.254-90.34c0-8.963,1.37-17.584,3.861-25.759H33.35v126.732
+                                    c0,6.563,5.359,11.902,11.916,11.902h208.907c6.563,0,11.911-5.339,11.911-11.902V126.868z M150.283,90.978
+                                    c-33.26,0-60.24,26.128-60.24,58.388c0,32.227,26.98,58.375,60.24,58.375c33.278,0,60.259-26.148,60.259-58.375
+                                    C210.542,117.105,183.561,90.978,150.283,90.978z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.stumbleupon.com/">
+                        <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="m24 15.732c0-.15 0-3.423 0-3.267h-4.1v3.374c0 .689-.577 1.242-1.279 1.242-.701
+                            0-1.275-.553-1.275-1.242v-3.308l-2.438.713-1.637-.75v3.29c0
+                            2.882 2.415 5.216 5.364 5.216 2.964 0 5.365-2.357 5.365-5.268z"/>
+                            <path fill="currentColor" d="m5.364 20.994c2.94 0 5.364-2.319 5.364-5.193v-7.511c0-.689.573-1.252 1.275-1.252.701 0 1.275.563 1.275 1.252
+                            0 .101 0 1.55 0 1.45l1.637.75 2.438-.713v-1.669c0-2.835-2.438-5.108-5.35-5.108-2.901 0-5.35 2.258-5.35 5.071v7.61c0
+                            .698-.573 1.252-1.275 1.252-.701 0-1.275-.553-1.275-1.252v-3.215h-4.103v3.266c0 2.905 2.401 5.262 5.364 5.262z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <circle fill="currentColor" cx="3.429" cy="20.571" r="3.429"/>
+                            <path fill="currentColor" d="m11.429 24h4.57c0-8.821-7.178-15.999-15.999-16v4.572c6.302.001 11.429 5.126 11.429 11.428z"/>
+                            <path fill="currentColor" d="m24 24c0-13.234-10.766-24-24-24v4.571c10.714 0 19.43 8.714 19.43 19.429z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <h6 class="white">© 2015 Axure Themes</h6>
         </footer>
     </div>
 </body>
