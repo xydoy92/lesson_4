@@ -484,7 +484,8 @@ form > .container__item {
 textarea {
     resize: none;
 }
-/*--footer--*/
+/* footer
+========== */
 footer {
     background: #000000;
 }
